@@ -11,7 +11,6 @@
   transition: background-color 0.2s ease, color 0.2s ease;
 }
 
-/* Variants */
 .my-btn--primary {
   background-color: #4a90e2;
   color: white;
@@ -63,7 +62,6 @@
   opacity: 0.8;
 }
 
-/* Sizes */
 .my-btn--sm {
   padding: 4px 10px;
   font-size: 12px;
@@ -77,14 +75,12 @@
   font-size: 16px;
 }
 
-/* Icon */
 .btn-icon {
   display: flex;
   align-items: center;
   font-size: 1.2em;
 }
 
-/* Loading state */
 .my-btn--loading {
   pointer-events: none;
   opacity: 0.7;

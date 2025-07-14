@@ -8,7 +8,7 @@ type ButtonProps = {
   size?: 'sm' | 'md' | 'lg';
   loading?: boolean;
   icon?: React.ReactNode;
-  className?: string; // ✅ Add className prop
+  className?: string; 
 };
 
 const Button: React.FC<ButtonProps> = ({
@@ -18,13 +18,13 @@ const Button: React.FC<ButtonProps> = ({
   size = 'md',
   loading = false,
   icon,
-  className = '', // ✅ Default to empty string
+  className = '', 
 }) => {
   return (
     <button
       className={`my-btn my-btn--${variant} my-btn--${size} ${
         loading ? 'my-btn--loading' : ''
-      } ${className}`} // ✅ Merge custom class
+      } ${className}`} 
       onClick={onClick}
       disabled={loading}
     >

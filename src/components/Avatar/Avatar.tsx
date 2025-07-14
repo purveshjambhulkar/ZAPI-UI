@@ -4,7 +4,7 @@ import "./Avatar.css";
 type AvatarProps = {
   src?: string;
   alt?: string;
-  fallback: string; // e.g., initials
+  fallback: string; 
   size?: "sm" | "md" | "lg";
   className?: string;
 };

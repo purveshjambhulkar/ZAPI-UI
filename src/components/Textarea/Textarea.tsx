@@ -8,8 +8,7 @@ type TextareaProps = {
   label?: string;
   disabled?: boolean;
   className?: string;
-  id?: string; // ✅ Added to support native 'id' prop
-};
+  id?: string; 
 
 const Textarea: React.FC<TextareaProps> = ({
   value,
@@ -18,7 +17,7 @@ const Textarea: React.FC<TextareaProps> = ({
   label,
   disabled = false,
   className = "",
-  id, // ✅ Destructure the id prop
+  id, 
 }) => {
   return (
     <div className={`textarea-wrapper ${className}`}>
@@ -28,8 +27,7 @@ const Textarea: React.FC<TextareaProps> = ({
         </label>
       )}
       <textarea
-        id={id} // ✅ Pass the id to the native element
-        className="textarea-input"
+        id={id} 
         value={value}
         onChange={onChange}
         placeholder={placeholder}

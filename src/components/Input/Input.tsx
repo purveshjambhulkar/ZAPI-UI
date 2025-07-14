@@ -10,7 +10,7 @@ type InputProps = {
   icon?: React.ReactNode;
   buttonText?: string;
   onButtonClick?: () => void;
-  className?: string; // ✅ Added className
+  className?: string; 
 };
 
 const Input: React.FC<InputProps> = ({
@@ -22,7 +22,7 @@ const Input: React.FC<InputProps> = ({
   icon,
   buttonText,
   onButtonClick,
-  className = '', // ✅ Default value
+  className = '',
 }) => {
   return (
     <div className={`input-wrapper ${className}`}>
