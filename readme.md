@@ -1,6 +1,16 @@
-# zapi-ui
+# ZAPI-UI
 
 A customizable and accessible React UI component library built with plain CSS.
+
+## 🌐 Reference
+
+[ZAPI-UI Website](https://zapi-ui-website.vercel.app)
+
+## 📸 Preview
+
+![Preview 1](./images/3.png)
+![Preview 2](./images/2.png)
+![Preview 3](./images/l.png)
 
 ## 📦 Installation
 
